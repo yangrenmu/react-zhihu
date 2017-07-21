@@ -1,0 +1,117 @@
+.Sidebar {
+	width: 100%;
+  height: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  .sideBar-content {
+  	position: absolute;
+    top: 0;
+    width: 80%;
+    height: 100%;
+    max-width: 538px;
+    font-size: 0;
+    background: rgb(254, 254, 254);
+    z-index: 10;
+  	.sideBar-box {
+  		width: 100%;
+      height: 100%;
+      overflow-y: scroll;
+      &::-webkit-scrollbar {
+        width: 0;
+      }
+  		.sideBar-header {
+        padding: 20px 0 20px 10px;
+        width: 100%;
+        box-sizing: border-box;
+        background: rgb(53, 157, 218);
+        .user {
+          .avatar {
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+            vertical-align: middle;
+            border-radius: 50%;
+            overflow: hidden;
+            .image {
+              width: 100%;
+            }
+          }
+          .name {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 10px;
+            font-size: 16px;
+            color: #fff;
+          }
+        }
+        .address {
+          margin-top: 5px;
+          .icon-github {
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 24px;
+          }
+          .link {
+            display: inline-block;
+            margin-left: 10px;
+            vertical-align: middle;
+            font-size: 16px;
+            color: #fff;
+          }
+        }
+      }
+      .themeList {
+        width: 100%;
+        font-size: 0px;
+        .home {
+          width: 100%;
+          height: 50px;
+          line-height: 50px;
+          font-size: 16px;
+          color: rgb(53, 157, 218);
+          a {
+            display: inline-block;
+            width: 100%;
+            color: rgb(53, 157, 218);
+          }
+          &.background {
+            background: rgba(240, 240, 240, 0.9);
+          }
+          .icon-home {
+            padding: 0 20px;
+            font-size: 20px;
+          }
+        }
+        .themes {
+          padding: 0 10px;
+          height: 50px;
+          line-height: 50px;
+          &.background {
+            background: rgba(240, 240, 240, 0.9);
+          }
+          a {
+            display: inline-block;
+            width: 100%;
+            color: rgb(10, 10, 10);
+          }
+          .text {
+            font-size: 16px;
+          }
+          .icon-add {
+            float: right;
+            margin-right: 40px;
+            color: rgb(190, 190, 190);
+          }
+        }
+      }
+  	}
+  }
+  .mask {
+  	position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 768px;
+    background: rgba(0, 0, 0, 0.8);
+  }
+}

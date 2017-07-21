@@ -1,0 +1,113 @@
+.article {
+	width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+	.header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 768px;
+    height: 50px;
+    align-items: center;
+    background: rgb(53, 157, 218);
+    color: #fff;
+    z-index: 5;
+    .back {
+      flex: 0 0 50px;
+      width: 50px;
+      text-align: center;
+      .icon-back {
+        font-size: 20px;
+      }
+    }
+    .icon-wrapper {
+      flex: 1;
+      .icons {
+        float: right;
+        .icon {
+          display: inline-block;
+          width: 60px;
+          font-size: 20px;
+          color: #fff;
+          &:first-child {
+            width: 50px;
+            font-size: 18px;
+          }
+          &.icon-star {
+            width: 50px;
+          }
+          .text {
+            display: inline-block;
+            vertical-align: bottom;
+            padding: 0 0 2px 2px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  .content-wrapper {
+    width: 100%;
+    max-width: 768px;
+    margin-top: 50px;
+    .image-wrapper {
+      position: relative;
+      overflow: hidden;
+      @media (max-width: 320px) {
+        height: 180px;
+      }
+      @media (min-width: 320px) and (max-width: 520px) {
+        height: 200px;
+      }
+      @media (min-width: 520px) and (max-width: 640px) {
+        height: 220px;
+      }
+      @media (min-width: 640px) {
+        height: 280px;
+      }
+      .title {
+        position: absolute;
+        bottom: 28px;
+        left: 0;
+        padding: 0 10px;
+        font-size: 20px;
+        line-height: 26px;
+        color: #fff;
+        z-index: 2;
+      }
+      .image-source {
+        position: absolute;
+        bottom: 8px;
+        right: 0;
+        padding: 0 10px;
+        font-size: 14px;
+        color: rgba(240, 240, 240, 0.9);
+        z-index: 2;
+      }
+      .image {
+        position: absolute;
+        top: -30%;
+        left: 0;
+        width: 100%;
+      }
+      .mask {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+        z-index: 1;
+      }
+    }
+    .article-body {
+      .main-wrap {
+        .headline {
+          height: 0;
+          border: none;
+        }
+      }
+    }
+  }
+}
