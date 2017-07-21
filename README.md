@@ -31,11 +31,8 @@ npm start
 ## 项目截图
 
 ![](http://upload-images.jianshu.io/upload_images/4928722-f6848142b7cfe25f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
 ![](http://upload-images.jianshu.io/upload_images/4928722-ef99f1ecad05a8d1.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
 ![](http://upload-images.jianshu.io/upload_images/4928722-a2942364289c3773.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
 ![](http://upload-images.jianshu.io/upload_images/4928722-bd91f0e35a781b18.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
